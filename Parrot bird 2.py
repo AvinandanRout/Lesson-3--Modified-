@@ -12,7 +12,7 @@ def sing(self, song):
   return "{} sings {}".format(self,name, song)
 
 
-def dance(self)
+def dance(self):
   return "{} is now dancing".format(self.name)
 
 

@@ -5,7 +5,7 @@ def fib_series(nterms):
         print(n1)
         nth = n1 + n2
         # update values
-        n1 = n1
+        n1 = n2
         n2 = nth 
         count += 1
 
@@ -21,4 +21,3 @@ elif nterms == 1:
 else:
     print("Fibonacci sequence:")
     fib_series(nterms)
-    
